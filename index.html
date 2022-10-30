@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <title>NucbaZappi</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <img src="./assets/nucbazappiicon 1.png" class="logo">
+            <div class="menu-nav">
+                <a class="option-nav" href="index.html"><img src="./assets/Home.png"> Home </a>
+                <a class="option-nav" href="#"><img src="./assets/Fill 7.png" id="open" /></a>
+                <a class="option-nav" href="#"><img src="./assets/Fill 4.png" /></a>
+            <div class="overlay"></div>
+            </div>
+    </nav>
+    </header>
+    <section class="principal-container">
+        <div class="principal container">
+            <div class="titulo">
+                <h1 class="titulo-h1">Si tenes Zappi,</h1>
+        <h3 class="titulo-h3">tenes Nucba.</h3>
+        <p class="subtitulo-p">
+          Buscá lo que quieras y nucba te quedes sin comida.
+        </p>
+        <a href="#productos">
+          <button class="ver-button">VER MÁS</button>
+        </a>
+      </div>
+      <div class="imagenes">
+        <div class="imagen1">
+          <img src="./assets/pizza1.png" alt="Pizza " />
+        </div>
+        <div class="imagen2">
+          <img src="./assets/pizza2.png" alt="Pizza " />
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="container-recomendadas">
+        <h2 class="recomendadas-texto">Hoy te recomendamos</h2>
+        <div class="recomendadas-cards">
+          <!-- <div class="card box-shadow">
+            <img class="card__img--recommended" src="./img/la-maradona.png" alt="pizza recomendada" />
+            <div class="card__info">
+              <p class="card-name">La Maradona</p>
+              <p class="card__description">¡Eterna!</p>
+              <p class="card__price gradient-text">$ 450</p>
+            </div>
+            <button class="btn btn--add">Agregar</button>
+          </div>
+          <div class="card box-shadow">
+            <img class="card__img--recommended" src="./img/bacon.jpg" alt="pizza recomendada" />
+            <div class="card__info">
+              <p class="card-name">Mega-Bacon</p>
+              <p class="card__description">¡Ahora con más!</p>
+              <p class="card__price gradient-text">$ 380</p>
+            </div>
+            <button class="btn btn--add">Agregar</button>
+          </div>
+          <div class="card box-shadow">
+            <img class="card__img--recommended" src="./img/papas-god.jpg" alt="pizza recomendada" />
+            <div class="card__info">
+              <p class="card-name">Papas God</p>
+              <p class="card__description">Las mejores</p>
+              <p class="card__price gradient-text">$ 300</p>
+            </div>
+            <button class="btn btn--add">Agregar</button>
+          </div> -->
+        </div>
+      </section>
+      <section class="container-comidas">
+        <h2 class="comidas-titulo">Categorias</h2>
+        <div class="comidas-cards">
+          <div class="card card--category box-shadow active">
+            <img class="card-icon" src="./assets/pizza2.png" alt="Foto de categoria" />
+            <p class="card-name">Populares</p>
+            <div class="line-gradient"></div>
+          </div>
+          <div class="card card--category box-shadow" data-category="pizzas">
+            <img class="card-icon" src="./assets/image 34.png" data-category="pizzas" alt="Foto de categoria" />
+            <p class="card-name" data-category="pizzas">Pizzas</p>
+            <div class="line-gradient"></div>
+          </div>
+          <div class="card card--category box-shadow" data-category="burgers">
+            <img class="card-icon" src="./assets/hamburguesas.png" data-category="burgers" alt="Foto de categoria" />
+            <p class="card-name" data-category="burgers">Hamburguesas</p>
+            <div class="line-gradient"></div>
+          </div>
+          <div class="card card--category box-shadow" data-category="papas">
+            <img class="card-icon" src="./assets/napapuki.png" data-category="papas" alt="Foto de categoria" />
+            <p class="card-name" data-category="papas">Napapuki</p>
+            <div class="line-gradient"></div>
+          </div>
+          <div class="card card--category box-shadow" data-category="wraps">
+            <img class="card-icon" src="./assets/wraps.png" data-category="wraps" alt="Foto de categoria" />
+            <p class="card-name" data-category="wraps">Wraps</p>
+            <div class="line-gradient"></div>
+          </div>
+          <div class="card card--category box-shadow" data-category="mex-food">
+            <img class="card-icon" src="./assets/mex-food.png" data-category="mex-food" alt="Foto de categoria" />
+            <p class="card-name" data-category="mex-food">Mexican Food</p>
+            <div class="line-gradient"></div>
+          </div>
+          <div class="card card--category box-shadow" data-category="batidos">
+            <img class="card-icon" src="./assets/batidos.png" data-category="batidos" alt="Foto de categoria" />
+            <p class="card-name" data-category="batidos">Batidos</p>
+            <div class="line-gradient"></div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <main class="container-pizzas">
+      <h2 class="pizzas-titulo">Las mas populares</h2>
+      <div class="pizzas-cards" id="productos">
+        <!-- Card a renderizar  -->
+        <!-- <div class="card card--pizza">
+          <img class="card__img" src="/img/la-mr-pit.png" alt="pizza popular">
+          <div class="card__container-info">
+            <div class="card__info">
+              <p class="card-name">Bennzianna</p>
+              <p class="card__description">La mas completa</p>
+              <p class="card__price gradient-text">$ 3650</p>
+            </div>
+            <button class="btn">Agregar</button>
+          </div>
+        </div> -->
+      </div>
+    </main>
+    <footer class="pie container">
+        <div class="pie-links">
+          <a class="pie-a" href="">Términos de Uso</a>
+          <a class="pie-a" href="">Trabajá con Nosotros</a>
+          <a class="pie-a" href="">Soporte</a>
+        </div>
+        <p class="pie-p">
+          Hecho con 💖 en <span class="pie-span">NUCBAZAPPI</span>
+        </p>
+      </footer>
+      <!-- Carrito de compras  -->
+  <div class="cart" id="cart">
+    <span class="btn btn--close" id="close">X</span>
+    <span class="cart__heading">Tus Productos:</span>
+    <div class="cart__main">
+      <!--<div class="card card--cart box-shadow">
+          <img
+            class="card__img"
+            src="./img/PhotoMenu.png"
+            alt="pizza recomendada"
+          />
+          <div class="card__info">
+            <p class="card__name">Bennzianna</p>
+            <p class="card__description">La mas completa</p>
+            <p class="card__price gradient-text">$ 3650</p>
+          </div>
+          <div class="card__buttons">
+            <button class="btn btn--cart">-</button>
+            <span class="card__quantity">1</span>
+            <button class="btn btn--cart">+</button>
+          </div>
+        </div>-->
+    </div>
+    <div class="cart-total">
+        <p id="total-p">Total:</p>
+        <span class="total"> 0.00 $</span>
+      </div>
+      <div class="btn-contain">
+        <button class="btn-buy btn">Comprar</button>
+        <button class="btn-delete btn">Vaciar carrito</button>
+      </div>
+      
+    </div>
+    <div class="add-modal"></div>
+    </div>
+</section>
+      <script src="index.js"></script>
+      <script src="funciones.js"></script>
+</body>
+</html>
